@@ -1,0 +1,168 @@
+:root{
+	font-size: 16px;
+};
+
+html,body{
+	max-width: 100%;
+}
+
+
+/*.jumbotron-background-img{
+			background-image: url(students.jpeg);
+			background-size: cover;
+			
+		}
+*/
+.display-4 {
+	
+	padding-bottom: 2vh;
+	padding-top: 6vh;
+	font-weight: bold;
+	font-size: 3.6rem;
+
+}
+
+
+
+.text-primary{
+	color: #800080 !important;
+	padding-bottom: 10vh;
+}
+.sub-heading{
+	padding-top:15vh;
+	padding-bottom: 10px;
+	color:  #800080; 
+	font-family: 'Roboto Slab', serif;
+	font-size: 2.4rem;
+	 
+}
+
+.jumbo-custom{
+	height: 100vh; 
+	padding-top:20vh;
+	padding-bottom: 10vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
+
+	background-image: url(pics/students.jpeg); 
+	background-size: cover;
+	background-position: right center;
+	
+	 
+}
+
+@media only screen and (min-width: 768px){
+	.jumbo-custom{
+		height:100vh;
+
+	}
+
+	.display-4{
+		
+		padding-top: 15vh;
+
+	}
+
+    .sub-heading{
+    	
+    	
+    	padding-top: 2vh;
+    }
+}
+
+.club-row{
+	padding-top: 6vh;
+	padding-bottom: 6vh;
+}
+
+.club-row-title{
+	padding-top: 6vh;
+	padding-bottom: 3vh;
+	font-family: 'Mali', cursive;
+	color: #2D1142; 
+}
+
+
+
+
+#about{
+	padding-top: 12vh;
+	padding-bottom: 9vh;
+
+}
+
+.about-title{
+	padding-top: 1vh;
+	padding-bottom: 3vh;
+	font-family: 'Mali', cursive;
+	color: #2D1142; 
+}
+
+.about-body{
+	font-family: 'Montserrat', sans-serif;
+	color: #1C1866 ;
+}
+
+.card-img-top{
+	max-height:24vh;
+	max-width:15vw;
+	padding-top:  5vh;
+	padding-left: 5vw;
+}
+
+.my-card-color{
+	color: #1C1866;
+	max-width: 18rem;
+	font-family: 'Montserrat', sans-serif; 
+}
+
+.my-footer{
+	background-color: #343a40;
+}
+
+.footer-logo{
+	max-width: 40vw;
+	max-height: 30vh;
+}
+
+#address, #phone, #mail{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.fa {
+  padding: 1px 1vw 1px 1vw;
+  font-size: 1.6rem;
+  width: 4vw;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 5px;
+}
+
+.fa:hover {
+    opacity: 0.6;
+    color: white;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+.footer-icon:hover{
+	cursor: pointer;
+
+}
