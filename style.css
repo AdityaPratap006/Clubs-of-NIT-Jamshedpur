@@ -16,9 +16,9 @@ html,body{
 .display-4 {
 	
 	padding-bottom: 2vh;
-	padding-top: 6vh;
+	padding-top: 15vh;
 	font-weight: bold;
-	font-size: 3.6rem;
+	font-size: 4.5rem;
 
 }
 
@@ -29,12 +29,22 @@ html,body{
 	padding-bottom: 10vh;
 }
 .sub-heading{
-	padding-top:15vh;
+	padding-top:5vh;
 	padding-bottom: 10px;
 	color:  #800080; 
 	font-family: 'Roboto Slab', serif;
-	font-size: 2.4rem;
+	font-size: 3.2rem;
 	 
+}
+
+.navbar-brand{
+	font-size: 2rem;
+	font-family: 'Mali', cursive;
+}
+
+.nav-link, .dropdown-item{
+	font-size: 1.8rem;
+	font-family: 'Mali', cursive;
 }
 
 .jumbo-custom{
@@ -51,24 +61,7 @@ html,body{
 	 
 }
 
-@media only screen and (min-width: 768px){
-	.jumbo-custom{
-		height:100vh;
 
-	}
-
-	.display-4{
-		
-		padding-top: 15vh;
-
-	}
-
-    .sub-heading{
-    	
-    	
-    	padding-top: 2vh;
-    }
-}
 
 .club-row{
 	padding-top: 6vh;
@@ -80,6 +73,7 @@ html,body{
 	padding-bottom: 3vh;
 	font-family: 'Mali', cursive;
 	color: #2D1142; 
+	font-size: 3rem;
 }
 
 
@@ -89,40 +83,60 @@ html,body{
 	padding-top: 12vh;
 	padding-bottom: 9vh;
 
+
 }
 
 .about-title{
 	padding-top: 1vh;
 	padding-bottom: 3vh;
 	font-family: 'Mali', cursive;
-	color: #2D1142; 
+	color: #2D1142;
+	font-size: 3rem; 
+
 }
 
 .about-body{
 	font-family: 'Montserrat', sans-serif;
 	color: #1C1866 ;
+	font-size: 1.8rem;
 }
 
 .card-img-top{
 	max-height:24vh;
-	max-width:15vw;
+	max-width:27vw;
 	padding-top:  5vh;
 	padding-left: 5vw;
 }
 
+
+
+
+
 .my-card-color{
 	color: #1C1866;
-	max-width: 18rem;
+	max-width:33vw;
 	font-family: 'Montserrat', sans-serif; 
+	font-size: 1.8rem;
 }
 
-.my-footer{
+.find-more-button{
+		font-size: 1.8rem;
+	}
+
+
+
+.card-title{
+	font-size: 2.4rem;
+	color:  #e86209; 
+}
+.myfooter{
 	background-color: #343a40;
 }
 
 .footer-logo{
 	max-width: 40vw;
 	max-height: 30vh;
+
 }
 
 #address, #phone, #mail{
@@ -131,9 +145,9 @@ html,body{
 }
 
 .fa {
-  padding: 1px 1vw 1px 1vw;
-  font-size: 1.6rem;
-  width: 4vw;
+  padding: 0.2rem;
+  font-size: 2rem;
+  width: 2rem;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -164,5 +178,60 @@ html,body{
 
 .footer-icon:hover{
 	cursor: pointer;
+
+}
+
+.footer-column{
+	padding-top: 5vh;
+}
+
+@media only screen and ( max-width: 1080px){
+
+	.my-card-color{
+	
+		max-width:80vw;
+		font-size: 2.2rem;
+
+	
+	}
+
+	.about-body{
+		font-size: 2.2rem;
+	}
+
+	.about-title, .club-row-title{
+		font-size: 3.4rem; 
+	}
+
+	.display-4 {
+	
+		padding-top: 10vh;
+	    font-weight: lighter;
+
+	}
+
+	
+	.card-img-top{
+        max-height:24vh;
+		max-width:60vw;
+
+	}	
+		
+
+	.footer-column{
+		padding-left: 15vw;
+		font-size: 1.8rem;
+
+	}
+
+	.footer-icon, .social-media{
+		padding-left: 12vw;
+	}
+
+	.find-more-button{
+		font-size: 2.2rem;
+	}
+	
+
 
 }
