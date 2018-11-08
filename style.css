@@ -38,12 +38,12 @@ html,body{
 }
 
 .navbar-brand{
-	font-size: 2rem;
+	font-size: 2.7rem;
 	font-family: 'Mali', cursive;
 }
 
 .nav-link, .dropdown-item{
-	font-size: 1.8rem;
+	font-size: 2.4rem;
 	font-family: 'Mali', cursive;
 }
 
@@ -146,8 +146,9 @@ html,body{
 
 .fa {
   padding: 0.2rem;
-  font-size: 2rem;
-  width: 2rem;
+  font-size: 3.6rem;
+  width: 4rem;
+  height: 4.32rem;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -179,10 +180,12 @@ html,body{
 .footer-icon:hover{
 	cursor: pointer;
 
+
 }
 
 .footer-column{
-	padding-top: 5vh;
+	padding-top: 9vh;
+	padding-bottom: 6vh;
 }
 
 @media only screen and ( max-width: 1080px){
@@ -194,6 +197,14 @@ html,body{
 
 	
 	}
+
+	
+
+	/*.navbar-toggler{
+		transform: scale(1.5);
+	}*/
+
+
 
 	.about-body{
 		font-size: 2.2rem;
@@ -220,18 +231,40 @@ html,body{
 
 	.footer-column{
 		padding-left: 15vw;
-		font-size: 1.8rem;
+		font-size: 2.2rem;
+		padding-bottom: 0vh;
 
 	}
 
-	.footer-icon, .social-media{
+	.footer-icon{
 		padding-left: 12vw;
+		padding-top: 2vh;
+	}
+
+	.social-media{
+		padding-left: 1vw;
 	}
 
 	.find-more-button{
 		font-size: 2.2rem;
 	}
 	
+	.social-media{
+		padding-right: 1vw;
+	}
+
+	.footer-link{
+		width: 9rem;
+		height: 9.6rem;
+		padding: 0.5rem;
+		font-size: 8.4rem;
+
+	}
+
+	.copyright{
+		font-size: 2.2rem;
+		padding-top: 1rem;
+	}
 
 
 }
