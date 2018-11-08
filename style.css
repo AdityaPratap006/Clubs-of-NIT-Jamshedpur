@@ -145,10 +145,10 @@ html,body{
 }
 
 .fa {
-  padding: 0.2rem;
-  font-size: 3.6rem;
-  width: 4rem;
-  height: 4.32rem;
+  padding: 0.6rem;
+  font-size: 1.8rem;
+  width: 3rem;
+  height: 3rem;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -187,6 +187,15 @@ html,body{
 	padding-top: 9vh;
 	padding-bottom: 6vh;
 }
+
+
+.footer-link{
+		 padding: 0.2rem;
+  		font-size: 3.6rem;
+  		width: 4rem;
+  		height: 4.32rem;
+
+	}
 
 @media only screen and ( max-width: 1080px){
 
@@ -232,7 +241,7 @@ html,body{
 	.footer-column{
 		padding-left: 15vw;
 		font-size: 2.2rem;
-		padding-bottom: 0vh;
+		padding-bottom: 1vh;
 
 	}
 
@@ -247,6 +256,14 @@ html,body{
 
 	.find-more-button{
 		font-size: 2.2rem;
+	}
+
+	.fa {
+	  padding: 0.2rem;
+  	  font-size: 3.6rem;
+  	  width: 4rem;
+	  height: 4.32rem;
+	  
 	}
 	
 	.social-media{
